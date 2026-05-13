@@ -12,7 +12,7 @@
 </div>  
 
 
-[project]
+[project] [[supplementary material](https://github.com/lijunxian111/G2TR/releases/tag/v1/supple.pdf)]
 
 #### 🔥🔥🔥 News
 
