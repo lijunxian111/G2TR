@@ -42,3 +42,11 @@ TBD
 1. [Testing](#testing)
 2. [Results](#results)
 3. [Acknowledgements](#acknowledgements)
+
+## <a name="testing"></a>📄 Testing  
+
+TBD
+
+## <a name="results"></a>🔎 Results
+
+We present the performance of G^2TR compared with previous SOTA methods.
