@@ -52,6 +52,32 @@ TBD
 
 We present the performance of G^2TR compared with previous SOTA methods.
 
+<details open>
+<summary>Main Results (click to expand)</summary>
+
+- Results in Fig. 4 of the main paper
+
+<p align="center">
+  <img width="900" src="figs/editing.png">
+</p>
+
+- Results in Tab. 2 of the main paper
+
+<p align="center">
+  <img width="900" src="figs/understanding.png">
+</p>
+</details>
+
+<details open>
+<summary>Comparison of Reduced Tokens (click to expand)</summary>
+
+- Results in Fig. 5 of the main paper
+
+<p align="center">
+  <img width="900" src="figs/reduction.png">
+</p>
+</details>
+
 ## <a name="citation"></a>📎 Citation
 
 If you find our dataset and code helpful in your research or work, please cite the following paper.
