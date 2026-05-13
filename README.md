@@ -7,7 +7,7 @@
 <div>
 <a href="https://github.com/lijunxian111/G2TR/releases" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/downloads/lijunxian111/G2TR/total?color=green"></a>
 <a href="https://github.com/lijunxian111/G2TR" target='_blank' style="text-decoration: none;"><img src="https://visitor-badge.laobi.icu/badge?page_id=lijunxian111/PlanViz"></a>
-<a href="https://arxiv.org/abs/2602.06663"><img src="https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv&logoSvg"></a>
+<a href="https://arxiv.org/abs/2605.12309"><img src="https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv&logoSvg"></a>
 <a href="https://github.com/lijunxian111/PlanViz/stargazers" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/stars/lijunxian111/G2TR"></a>
 </div>  
 
