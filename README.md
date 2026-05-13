@@ -43,6 +43,7 @@ TBD
 2. [Results](#results)
 3. [Acknowledgements](#acknowledgements)
 
+
 ## <a name="testing"></a>📄 Testing  
 
 TBD
@@ -50,3 +51,19 @@ TBD
 ## <a name="results"></a>🔎 Results
 
 We present the performance of G^2TR compared with previous SOTA methods.
+
+## <a name="citation"></a>📎 Citation
+
+If you find our dataset and code helpful in your research or work, please cite the following paper.
+
+```
+@article{li2026g2tr,
+      title={G$^2$TR: Generation-Guided Visual Token Reduction for Separate-Encoder Unified Multimodal Models}, 
+      author={Junxian Li and Kai Liu and Zizhong Ding and Zhixin Wang and Zhikai Chen and Renjing Pei and Yulun Zhang},
+      journal={arXiv preprint arXiv:2605.12309},
+      year={2026}
+}
+```
+
+## <a name="acknowledgements"></a>💡 Acknowledgements
+This project is built based on numerous model repositories. Thanks [Bagel-7B-MoT](https://github.com/ByteDance-Seed/Bagel) and [InternVL-U](https://github.com/OpenGVLab/InternVL-U).
