@@ -2,7 +2,7 @@
 
 [Junxian Li](https://lijunxian111.github.io), [Kai Liu](https://kai-liu.cn), [Zizhong Ding](https://openreview.net/profile?id=~Zizhong_Ding1), [Zhixin Wang](https://scholar.google.com/citations?user=tZS6bPMAAAAJ&hl=en&oi=sra), [Zhikai Chen](https://scholar.google.com/citations?hl=en&user=6EW56pIAAAAJ), [Renjing Pei](https://scholar.google.com/citations?hl=en&user=zEEMPUUAAAAJ&view_op=list_works&sortby=pubdate), and [Yulun Zhang](https://yulunzhang.com)
 
-"G²TR: Generation-Guided Visual Token Reduction for Separate-Encoder Unified Multimodal Models", arXiv 2026  
+"G²TR: Generation-Guided Visual Token Reduction for Separate-Encoder Unified Multimodal Models", NeurIPS 2026  
 
 <div>
 <a href="https://github.com/lijunxian111/G2TR/releases" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/downloads/lijunxian111/G2TR/total?color=green"></a>
