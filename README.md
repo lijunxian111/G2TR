@@ -16,6 +16,7 @@
 
 #### 🔥🔥🔥 News
 
+- **2026-09-26:** The codes for token selection and merging are released.  
 - **2026-05-13:** This repo is released.
 
 
