@@ -48,7 +48,7 @@ TBD
 
 ## <a name="testing"></a>📄 Testing  
 
-TBD
+We use the official evaluation methods of the benchmarks mentioned.  
 
 ## <a name="results"></a>🔎 Results
 
