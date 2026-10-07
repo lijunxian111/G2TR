@@ -109,7 +109,8 @@ class InterleaveInferencer:
                 )
             past_key_values = self.model.forward_cache_update_vit(past_key_values, **generation_input)
 
-        gen_context['kv_lens'] = kv_lens
+        #gen_context['kv_lens'] = kv_lens (old version, if report error here, use this)
+        gen_context['kv_lens'] = [past_key_values.seq_lens]
         gen_context['ropes'] = ropes
         gen_context['past_key_values'] = past_key_values
 
