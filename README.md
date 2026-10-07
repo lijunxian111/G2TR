@@ -82,7 +82,7 @@ We present the performance of G²TR compared with previous SOTA methods.
 
 ## <a name="citation"></a>📎 Citation
 
-If you find our dataset and code helpful in your research or work, please cite the following paper.
+If you find our code or idea helpful in your research or work, please kindly cite the following paper. We really appreciate that.  
 
 ```
 @article{li2026g2tr,
