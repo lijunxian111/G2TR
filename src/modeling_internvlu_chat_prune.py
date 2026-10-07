@@ -449,13 +449,26 @@ class InternVLUChatModel(PreTrainedModel):
             image_flags = image_flags.squeeze(-1).to(vit_embeds.device)
             vit_embeds = vit_embeds[image_flags == 1]
 
-        keep_ratio = float(prune_ratio if prune_ratio is not None else getattr(self.config, "umm_prune_ratio", 0.5))
+        keep_ratio = float(
+            prune_ratio
+            if prune_ratio is not None
+            else getattr(self.config, "umm_prune_ratio", 0.5)
+        )
+
+        if not 0.0 < keep_ratio <= 1.0:
+            raise ValueError(
+                f"umm_prune_ratio must be in (0, 1], got {keep_ratio}"
+            )
+
         enable_prune = (
-            (bool(getattr(self.config, "umm_vae_guided_prune", False)) or keep_ratio < 1.0)
+            bool(getattr(self.config, "umm_vae_guided_prune", False))
             and keep_ratio < 1.0
             and vae_model is not None
             and pixel_values is not None
-            and not (self.training and not bool(getattr(self.config, "umm_prune_training", False)))
+            and (
+                not self.training
+                or bool(getattr(self.config, "umm_prune_training", False))
+            )
         )
         if not enable_prune:
             return (
