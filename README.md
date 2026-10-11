@@ -59,7 +59,7 @@ src/
 │
 ├── InternVL-U
 │   ├── <a href="./src/configuration_internvlu_chat_prune.py">configuration_internvlu_chat_prune.py</a>   Model configuration
-│   ├── <a href="./src/modeling_internvlu_chat_prune.py">modeling_internvlu_chat_prune.py</a>        G²TR-enabled VLM
+│   ├── <a href="./src/modeling_internvlu_chat_prune.py">modeling_internvlu_chat_prune.py</a>        G²TR-enabled InternVLU
 │   └── <a href="./src/pipeline_internvlu_prune.py">pipeline_internvlu_prune.py</a>             Inference pipeline
 │
 └── Shared
