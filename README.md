@@ -45,6 +45,27 @@ TBD
 3. [Results](#results)
 4. [Acknowledgements](#acknowledgements)
 
+### Codes  
+
+<h3>📂 Code Structure</h3>
+
+<pre>
+src/
+│
+├── BAGEL-7B-MoT
+│   ├── <a href="./src/bagel_new_prune.py">bagel_new_prune.py</a>          G²TR-enabled BAGEL model
+│   ├── <a href="./src/inferencer_new.py">inferencer_new.py</a>           Inference with latent-guided reduction
+│   └── <a href="./src/siglip_navit_new_prune.py">siglip_navit_new_prune.py</a>   Modified vision encoder
+│
+├── InternVL-U
+│   ├── <a href="./src/configuration_internvlu_chat_prune.py">configuration_internvlu_chat_prune.py</a>   Model configuration
+│   ├── <a href="./src/modeling_internvlu_chat_prune.py">modeling_internvlu_chat_prune.py</a>        G²TR-enabled VLM
+│   └── <a href="./src/pipeline_internvlu_prune.py">pipeline_internvlu_prune.py</a>             Inference pipeline
+│
+└── Shared
+    └── <a href="./src/token_merge_new.py">token_merge_new.py</a>         Token selection & merging
+</pre>  
+
 
 ## <a name="testing"></a>📄 Testing  
 
